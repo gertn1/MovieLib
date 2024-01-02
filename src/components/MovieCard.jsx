@@ -2,8 +2,9 @@ import { Link } from "react-router-dom";
 
 import { FaStar } from "react-icons/fa";
 
-const imagesURL = import.meta.env.VITE_IMG;
-//const imageUrl = 'https://api.themoviedb.org/3/movie/157336/videos?api_key=4459ee85fba02b50fa3f364154395c41';
+//const imagesURL = import.meta.env.VITE_IMG;
+//const imagesURL = 'https://image.tmdb.org/t/p/w500/1E5baAaEse26fej7uHcjOgEE2t2.jpg';
+const imagesURL = 'https://image.tmdb.org/t/p/w500/';
 
 const MovieCard = ({ movie, showLink = true }) => {
   return (
@@ -19,3 +20,4 @@ const MovieCard = ({ movie, showLink = true }) => {
 };
 
 export default MovieCard;
+

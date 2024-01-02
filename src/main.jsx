@@ -22,3 +22,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </BrowserRouter>
   </React.StrictMode>
 );
+
+// utils/api.js
+export const buildImageUrl = (baseURL, size, filePath) => {
+  return `${baseURL}/t/p/${size}/${filePath}`;
+};
