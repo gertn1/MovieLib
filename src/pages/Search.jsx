@@ -4,6 +4,7 @@ import MovieCard from "../components/MovieCard";
 
 //const searchURL = import.meta.env.VITE_SEARCH;
 //const api_key = import.meta.env.VITE_API_KEY;
+//const api_key = import.meta.env.VITE_API_KEY;
 
 const searchURL = 'https://api.themoviedb.org/3/search/movie';
 const apiKey = 'api_key=4459ee85fba02b50fa3f364154395c41';
